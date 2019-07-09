@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,134 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <h1>Hello world!</h1>
-  
+  <header class="site-header">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="index.html">Strona główna</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="second_page.html">Podstrona</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="kolejna-podstrona.html">Kolejna Podstrona</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="top" class="main">
+    <header class="header">
+      <h1 class="header__title">
+        Stacy Du - Strona domowa
+      </h1>
+    </header>
+    <section class="about">
+      <h2 class="about__header">Kim jestem?</h2>
+      <p class="about__paragraph">
+        <img src="assets/images/about_image.png" alt="An owl picture" class="about__picture">
+        Maecenas <b>mollis accumsan mi</b>, eu hendrerit lacus porttitor id. Aliquam eget lorem magna. Nullam
+        non justo turpis.
+        Morbi quis urna augue. Pellentesque at orci tortor. <strong>Donec massa erat</strong>, luctus a eros eu,
+        lobortis elementum
+        felis. Pellentesque risus leo,
+        tempus in ornare eu, fermentum eu purus.
+        <br>
+        <a class="about__link" href="#pamietniczek">Przejdź do pamiętniczka</a>
+      </p>
+      <p class="about__paragraph about__paragraph--js">Some text goes here</p>
+    </section>
+    <div class="content">
+      <section id="pamietniczek" class="diary">
+        <h2 class="diary__header">Pamiętniczek</h2>
+        <div class="grid">
+          <section class="day">
+            <h3 class="day__header">Jak stworzyć prawidłowego HTML-a?</h3>
+            <p class="day__paragraph">
+              Cras efficitur gravida massa, finibus porta purus euismod quis. Nulla facilisi. Praesent
+              faucibus
+              orci sed
+              massa commodo, sit amet ullamcorper orci ullamcorper. Proin vitae molestie tortor, quis
+              posuere
+              augue. Integer
+              tincidunt quis enim at viverra. Nam urna nisi, laoreet a tellus ut, aliquet mattis tellus.
+              Nullam
+              imperdiet tortor pharetra leo ultrices, sit amet
+              varius metus auctor. Pellentesque ac justo ac sem dictum imperdiet a ac augue. Quisque
+              elementum
+              nisi urna, et
+              efficitur tortor interdum elementum.<br>
+              <a class="day__link" href="podstrona.html">Przejdź do artykułu</a>
+            </p>
+          </section>
+          <section class="day">
+            <h3 class="day__header">Czy nagrywanie szkolenia to prosta sprawa?</h3>
+            <p class="day__paragraph">
+              Mauris ante ante, imperdiet nec sodales vel, fermentum nec magna. Integer eget erat iaculis,
+              condimentum diam
+              pellentesque, lacinia justo. Phasellus convallis ligula vitae lorem placerat pellentesque.
+              Nullam
+              nec eros
+              dolor. Praesent convallis nulla nec
+              enim dapibus, at vehicula urna cursus. Integer faucibus pellentesque massa non fermentum.
+              Nam
+              consectetur
+              efficitur metus, ac rhoncus nisl. Etiam eget tortor lectus. Sed iaculis ante metus, et
+              auctor
+              odio
+              lacinia sit
+              amet.
+            </p>
+          </section>
+          <section class="day">
+            <h3 class="day__header">Coś coś</h3>
+            <p class="day__paragraph">
+              Cras efficitur gravida massa, finibus porta purus euismod quis. Nulla facilisi. Praesent
+              faucibus
+              orci sed
+              massa commodo, sit amet ullamcorper orci ullamcorper. Proin vitae molestie tortor, quis
+              posuere
+              augue. Integer
+              tincidunt quis enim at viverra. Nam
+              urna nisi, laoreet a tellus ut, aliquet mattis tellus. Nullam imperdiet tortor pharetra leo
+              ultrices, sit amet
+              varius metus auctor. Pellentesque ac justo ac sem dictum imperdiet a ac augue. Quisque
+              elementum
+              nisi urna, et
+              efficitur
+              tortor interdum elementum.
+            </p>
+          </section>
+          <section class="day">
+            <h3 class="day__header day__header--sunday">Bla bla</h3>
+            <p class="day__paragraph">
+              Mauris ante ante, imperdiet nec sodales vel, fermentum nec magna. Integer eget erat iaculis,
+              condimentum diam
+              pellentesque, lacinia justo. Phasellus convallis ligula vitae lorem placerat pellentesque.
+              Nullam
+              nec eros
+              dolor. Praesent convallis nulla nec
+              enim dapibus, at vehicula urna cursus. Integer faucibus pellentesque massa non fermentum.
+              Nam
+              consectetur
+              efficitur metus, ac rhoncus nisl. Etiam eget tortor lectus. Sed iaculis ante metus, et
+              auctor
+              odio
+              lacinia sit
+              amet.
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      Strona domowa Stacu Du, wszystkie treści są przygotowane dla kursu WTF?
+    </footer>
+  </main>
+
   <script src="js/main.js"></script>
 </body>
+
 </html>
